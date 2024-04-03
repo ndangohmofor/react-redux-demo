@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import CakeContainer from "./components/CakeContainer";
 import { Provider } from "react-redux";
@@ -9,6 +8,7 @@ import PearContainer from "./components/pearContainer";
 import HooksPearContainer from "./components/HooksPearContainer";
 import NewCakeContainer from "./components/NewCakeContainer";
 import ItemContainer from "./components/ItemContainer";
+import UserContainer from "./components/userContainer";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <PearContainer />
         <HooksPearContainer />
         <NewCakeContainer />
+        <UserContainer />
       </div>
     </Provider>
   );

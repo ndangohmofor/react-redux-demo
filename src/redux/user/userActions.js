@@ -25,7 +25,7 @@ export const fetchUserFailure = (error) => {
   };
 };
 
-const fetchUsers = () => {
+export const fetchUsers = () => {
   return (dispatch) => {
     dispatch(fetchUserRequest);
     axios
